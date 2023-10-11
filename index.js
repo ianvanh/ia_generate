@@ -19,11 +19,11 @@ app.post('/generate', async (req, res) => {
   try {
     let prompt = req.body.prompt;
     let key = 'darkbox';
-    let url = await fetch(`https://xzn.wtf/api/midjourney?text=${prompt}&apikey=${key}`)
+    let url = await fetch(`https://xzn.wtf/api/midjourney/v2?text=${prompt}&apikey=${key}`)
     let response = await url.json()
-    
+
     res.render("ia_image", {
-      imageUrl: response.imageUrl,
+      imageUrl: response.base64,
       creator: '@ianvanh'
     });
   } catch (error) {
