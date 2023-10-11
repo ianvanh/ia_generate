@@ -4,7 +4,7 @@ DRKBOT IMAGE GENERATOR, es un poderoso generador de im√°genes gratuito que podr√
 
 <hr/>
 
-![](./preview1.png)
+![](./public/preview1.jpg)
 <br/><br/>
-![](./preview2.png)
+![](./public/preview2.jpg)
 <br/><br/>
